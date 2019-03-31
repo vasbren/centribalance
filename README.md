@@ -1,2 +1,5 @@
-# centribalance
-pagina web
+# CentriBalance
+
+Nombre del proyecto: CentriBalance
+Descripcion: Pagina web responsive para personas diabeticas
+
