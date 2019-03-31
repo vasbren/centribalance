@@ -28,6 +28,8 @@ p {
 }
 
 .menu ul {
+    width: 150px;
+    position: absolute;
     display: flex;
     padding: 0px;
     margin: 0px;
