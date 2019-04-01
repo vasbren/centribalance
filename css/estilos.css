@@ -73,39 +73,15 @@ p {
     height: 100%;
 }
 
-#centro col-12 {
-    padding: 0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;
-}
 
-#centro h1 {
+#centro {
     text-align: center;
-    margin: 0 auto;
     padding-left: 375px;
     padding-right: 375px;
-}
-
-#centro p {
-    text-align: center;
-    margin: 0 auto;
-    padding-left: 375px;
-    padding-right: 375px;
-}
-
-#filosofia h3,
-p {
-    text-align: center;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 #filosofia {
-    width: 100%;
-    margin: 0 auto;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 
