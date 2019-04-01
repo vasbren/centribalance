@@ -102,8 +102,8 @@ p {
 .footer {
     text-align: center;
     color: black;
-    padding: 20px;
-    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 .footer img{
     margin-right: 30px;
