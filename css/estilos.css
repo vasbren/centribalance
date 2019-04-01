@@ -133,6 +133,20 @@ p {
     text-align: center;
     line-height: 5px;
 }
+#botonbrazosseccion{
+    right: 30px;
+    margin-top: 45px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonbrazosseccion p{
+    text-align: center;
+    line-height: 10px;
+}
 
 
 #centro {
