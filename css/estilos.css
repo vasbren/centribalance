@@ -97,8 +97,9 @@ p {
     background-color: blue;
     text-align: center;
     color: black;
+    padding: 20px;
+    margin: 20px;
   }
-.footer li{
-    list-style: none;
-    display: flex;
+.footer img{
+    margin-right: 10px;
 }
