@@ -13,6 +13,10 @@ h1 {
     font-size: 40px;
 }
 
+h2{
+    font-size: 34px;
+}
+
 h3 {
     font-size: 23px;
 }
@@ -41,6 +45,7 @@ p {
     padding: 20px;
     background-color: #67aaa3;
     text-decoration: none;
+    text-align: center;
     color: #ffffff;
 }
 
@@ -71,6 +76,62 @@ p {
 #contenedorimg img {
     width: 100%;
     height: 100%;
+}
+#botonbrazos{
+    right: 30px;
+    margin-top: 260px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonbrazos h2{
+    text-align: center;
+    line-height: 5px;
+}
+#botonpiernas{
+    left: 30px;
+    margin-top: 260px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonpiernas h2{
+    text-align: center;
+    line-height: 5px;
+}
+#botonabdomen{
+    right: 30px;
+    margin-top: 260px;
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonabdomen h2{
+    text-align: center;
+    line-height: 5px;
+}
+#botoncompleta{
+    left: 30px;
+    margin-top: 260px;
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botoncompleta h2{
+    text-align: center;
+    line-height: 5px;
 }
 
 
