@@ -100,5 +100,5 @@ p {
   }
 .footer li{
     list-style: none;
-    display: block;
+    display: flex;
 }
