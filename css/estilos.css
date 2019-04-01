@@ -20,7 +20,10 @@ h2{
 h3 {
     font-size: 23px;
 }
-
+h4 {
+    font-size: 50px;
+    font-weight: bold;
+}
 p {
     font-size: 21px;
 }
@@ -133,6 +136,16 @@ p {
     text-align: center;
     line-height: 5px;
 }
+.texto-rutina-portada{
+    margin-left: 45%;
+    margin-top: 550px;
+    position: absolute;
+}
+.texto-rutina-portada h4{
+    color: white;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000;
+    }
+
 .boton-portadas-rutinas{
     right: 30px;
     margin-top: 45px;
@@ -156,8 +169,17 @@ p {
     margin-right: 60px;
     margin-top: 26px;
 }
-
-
+.rutinas h3{
+    text-align: center;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 26px;
+}
+.publicidad-rutinas{
+    margin-left: 30%;
+      
+}
 
 #centro {
     text-align: center;
