@@ -84,6 +84,14 @@ p {
     text-align: center;
 }
 
+#logo {
+    margin: 10px auto;
+}
+
+.centrar {
+    margin: 20px auto;
+    display: block;
+}
 
 .footer {
     width: 100%;
@@ -94,18 +102,6 @@ p {
     padding-bottom: 50px;
     margin-top: 50px;
 }
-
-#logo {
-    margin: 10px auto;
-}
-
-.centrar {
-    margin: 20px auto;
-    display: block;
-}
-
-iframe {
-    width: 100%;
-    display: flex;
-    border-style: none;
+.footer li{
+    list-style: none;
 }
