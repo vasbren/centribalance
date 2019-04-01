@@ -94,12 +94,11 @@ p {
 }
 
 .footer {
-    width: 100%;
     background-color: blue;
     text-align: center;
     color: black;
-    
-}
+  }
 .footer li{
     list-style: none;
+    display: block;
 }
