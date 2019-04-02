@@ -185,21 +185,28 @@ p {
     margin-top: 200px;
     margin-left: 20%;
 }
-#textoconfiguracion{
-    position: relative;
-    padding-right: 1px;
-}
-#textoconfiguracion h3{
-    font-size:  18px;
-    padding-top: 180px;
-    padding-left: 150px;
+#textotiempo{
+    position: absolute;
+    padding-top: 13.5%;
+    padding-left: 10%;
     padding-right: 0;
 }
-#textoconfiguracion p{
+#textotiempo h3{
     font-size:  18px;
-    font-weight: bold;
-    padding-left: 100px;
+}
+#textodias{
+    position: absolute;
+    padding-top: 16.5%;
+    padding-left: 6%;
     padding-right: 0;
+}
+#textodias h3{
+    font-size:  18px;
+    
+}
+
+#imgconfiguracion{
+padding-left: 50%;
 }
 #aceptar-configuracion{
     left: 170px;
