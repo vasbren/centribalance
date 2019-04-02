@@ -181,7 +181,7 @@ p {
       
 }
 #seleccion-tiempo-dias{
-    position: absolute;
+    position: relative;
     margin-top: 200px;
     margin-left: 20%;
 }
@@ -198,7 +198,7 @@ p {
 #aceptar-configuracion{
     left: 170px;
     margin-top: 360px;
-    position: absolute;
+    position: relative;
     width: 150px;
     height: 45px;
     color: #ffff;
@@ -212,6 +212,9 @@ p {
 
 #listadias{
     margin-top: 20px;
+}
+#imgconfig{
+    position: relative;
 }
 #centro {
     text-align: center;
