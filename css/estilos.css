@@ -66,6 +66,7 @@ p {
 }
 
 #inicio-sesion {
+    margin: 20px auto;
     right: 20px;
     margin-left: 470px;
     margin-right: 20px;
@@ -228,7 +229,7 @@ p {
 }
 
 .centrar {
-    margin: 20px 20px;
+    margin: 20px auto;
     display: block;
     
 }
