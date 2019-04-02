@@ -228,8 +228,9 @@ p {
 }
 
 .centrar {
-    margin: 20px auto;
+    margin: 20px 20px;
     display: block;
+    
 }
 
 #inicio-footer{
