@@ -68,7 +68,7 @@ p {
 #inicio-sesion {
     margin-top: 20px;
     margin-left: 450px;
-    position: absolute;
+    position: relative;
     }
 
 .contenedor {
