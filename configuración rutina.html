@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CentriBalance</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/reticula.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
+
+    <!-- scrip header en head -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- header en head -->
+    <header>
+        <div class="header-html"></div>
+    </header>
+
+   <div class="row">
+            <div class="col-12">
+                  <a href="seleccion%20rutina.html">
+                  <div id="aceptar-configuracion">
+                   <h3>ACEPTAR</h3>
+               </div>
+               </a>
+               </div>
+        </div>
+        <div class="row">
+        <div id="seleccion-tiempo-dias">
+            <div class="col-12">
+                <form>
+                    <select name="Tiempo">
+                        <option value="15 Minutos">15 Minutos</option>
+                        <option value="20 Minutos">20 Minutos</option>
+                        <option value="25 Minutos">25 Minutos</option>
+                        <option value="30 Minutos">30 Minutos</option>
+                    </select>
+                </form>
+                <div id="listadias">
+                    <form>
+                        <select name="Días">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="textoconfiguracion"><div class="row">
+        <div class="col-6">
+            <h3>TIEMPO</h3>
+            <p>DÍAS A LA SEMANA</p>
+        </div>
+
+
+        <div class="col-6">
+            <img src="Imagenes/configuracionrutina/1.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+</body>
+
+<div class="footer">
+    <div class="footer-html"></div>
+</div>
+
+<!-- scrip para header -->
+
+<script>
+    $(document).ready(function() {
+        $('.header-html').load('./header.html');
+        $('.footer-html').load('./footer.html');
+    });
+
+</script>
+
+</html>
