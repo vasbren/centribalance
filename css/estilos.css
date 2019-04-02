@@ -181,54 +181,42 @@ p {
       
 }
 #seleccion-tiempo-dias{
-    position: absolute;
     margin-top: 200px;
-    margin-left: 20%;
 }
+#seleccion-tiempo-dias form{
+    margin-bottom: 20px;
+}
+
 #textotiempo{
-    position: absolute;
-    padding-top: 13.5%;
-    padding-left: 10%;
+    margin-top: 200px;
+    padding-left: 250px;
     padding-right: 0;
 }
 #textotiempo h3{
     font-size:  18px;
 }
-#textodias{
-    position: absolute;
-    padding-top: 16.5%;
-    padding-left: 6%;
-    padding-right: 0;
-}
-#textodias h3{
-    font-size:  18px;
-    
-}
 
 #imgconfiguracion{
-padding-left: 50%;
+ 
 }
 #aceptar-configuracion{
-    left: 170px;
-    margin-top: 360px;
-    position: absolute;
+    margin-left: 250px;
     width: 150px;
     height: 45px;
     color: #ffff;
     background-color: #7dbcb5;
     border-radius: 10px;
 }
-#aceptar-configuracion{
+#aceptar-configuracion h3{
+    padding-top: 8px;
     text-align: center;
-    line-height: 1px;
 }
 
 #listadias{
     margin-top: 20px;
 }
-#imgconfig{
-    
-    
+#imgconfiguracion{
+    padding-left: 105px;    
 }
 #centro {
     text-align: center;
