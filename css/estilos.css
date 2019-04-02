@@ -66,10 +66,10 @@ p {
 }
 
 #inicio-sesion {
+    right: 30px;
     margin-top: 20px;
-    margin-left: 450px;
-    position: relative;
-    }
+    position: absolute;
+}
 
 .contenedor {
     width: 100%;
