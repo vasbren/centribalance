@@ -155,10 +155,64 @@ p {
     text-decoration: none;
     padding-left: 30px;
 }
-.fondotemapregunta{
+.fondotemapreguntas{
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+.fondotemapreguntas li{
+    list-style: none;
+    margin-bottom: 5px;
     width: 100%;
-    height: 25px;
+    height: 20px;
     background-color: #ffff;
+}
+.autorcentrado{
+    text-align: center;
+}
+.fondotemaautor{
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.fondotemaautor li{
+    list-style: none;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+    background-color: #ffff;
+}
+.derecharespuestas{
+    padding-left: 100px;
+   }
+.respuestacentradatema{
+    text-align: center;
+}
+.fondotemarespuestas{
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+.fondotemarespuestas li{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 5px;
+    width: 200%;
+    height: 20px;
+    background-color: #ffff;
+}
+.botonvertemas{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+.botonvertemas p{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1;
 }
 
 #inicio-footer{
