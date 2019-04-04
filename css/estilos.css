@@ -61,7 +61,7 @@ p {
 }
 
 .menu ul li a:hover + ul,
-.nav ul li ul:hover {
+.nav ul li ul:hover{
     display: block;
 }
 
