@@ -102,18 +102,11 @@ p {
     line-height: 2;
 }
 
-#paddingreceta{
-    padding-left: 40px;
-    padding-right: 20px;
-}
-#imgreceta{
-    padding-left: 50px;
+#publicidadvertical img{
+    padding-top: 40px;
+    margin-left: 72px;
 }
 
-#imgrecetapubliver{
-    padding-top: 50px;
-    padding-left: 30px
-}
 #centrartextorecetas{
     padding-left: 150px;
 }
