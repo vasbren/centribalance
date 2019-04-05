@@ -52,7 +52,7 @@ p {
     color: #ffffff;
 }
 
-.menu a:hover {
+.menu a:focus {
     background-color: #406d68;
 }
 
@@ -60,7 +60,7 @@ p {
     display: none;
 }
 
-.menu ul li a:hover + ul,
+.menu ul li a:focus + ul,
 .nav ul li ul:hover{
     display: block;
 }
