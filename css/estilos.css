@@ -80,6 +80,10 @@ p {
     width: 100%;
     height: 100%;
 }
+#contenedorimgsintomas img {
+    width: 100%;
+    height: 100%;
+}
 #botonbrazos{
     right: 30px;
     margin-top: 260px;
@@ -252,4 +256,93 @@ p {
   }
 .footer img{
     margin-right: 30px;
+}
+
+/* MEDIA QUERY*/
+
+@media (max-width: 700px) {
+.menu a img{
+    width: 20px;
+    }  
+#inicio-sesion img{
+    width: 55px;
+    
+}
+#logo img{
+   width: 65px;
+   padding-top: 10px;
+} 
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #7dbcb5;
+}
+#centro {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#filosofia .col-4{
+    width: 100%;
+    text-align: center;
+}
+
+#botonbrazos{
+    right: 10px;
+    margin-top: 80px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonbrazos h2{
+    font-size: 10px;
+}
+#botonpiernas{
+    left: 10px;
+    margin-top: 80px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonpiernas h2{
+    font-size: 10px;
+    text-align: center;
+    line-height: 5px;
+}
+#botonabdomen{
+    right: 10px;
+    margin-top: 80px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botonabdomen h2{
+    font-size: 10px;
+    text-align: center;
+    line-height: 5px;
+}
+#botoncompleta{
+    left: 10px;
+    margin-top: 80px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+#botoncompleta h2{
+    font-size: 10px;
+    text-align: center;
+    line-height: 5px;
+}
 }
