@@ -89,8 +89,9 @@ p {
 }
 
 .botonhazpedido{
+    margin-left: 400px;
     margin-top: 50px;
-    width: 200px;
+    width: 180px;
     height: 50px;
     color: #ffff;
     background-color: #7dbcb5;
@@ -132,3 +133,56 @@ p {
 .footer img{
     margin-right: 30px;
 }
+/* MEDIA QUERY*/
+@media (max-width: 700px) {
+.menu a img{
+    width: 20px;
+    }  
+#inicio-sesion img{
+    width: 55px;
+    
+}
+#logo img{
+   width: 65px;
+   padding-top: 10px;
+} 
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #7dbcb5;
+}
+.recetaresponsive img{
+    width: 100%;
+}
+#publicidadvertical img{
+    width: 50%;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+#centrartextorecetas{
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 96%;
+}
+#centrartextorecetas h1{
+    width: 100%;
+    padding-left: 0px;
+}
+.botonhazpedido{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+}
+
+.publicidadhorizontalrecetas img{
+    width: 100%;
+    padding-top: 60px;
+}
+
+
+
+}    
