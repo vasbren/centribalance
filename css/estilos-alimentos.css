@@ -509,7 +509,7 @@ ol, ul {
     height: 90px;
     background-color: #7dbcb5;
 }
-.banner1 {
+.banner1 .imagen1{
     width: 100%;
     height: 100px;
     background-repeat: no-repeat;
@@ -518,9 +518,6 @@ ol, ul {
     display: flex;
 }
 
-.imagen1 {
-    background-image: url(../Imagenes/alimentos/cover-alimentos.png);
-}
 }
 
 
