@@ -47,7 +47,7 @@ p {
     color: #ffffff;
 }
 
-.menu a:hover {
+.menu a:focus {
     background-color: #406d68;
 }
 
@@ -55,7 +55,7 @@ p {
     display: none;
 }
 
-.menu ul li a:hover + ul,
+.menu ul li a:focus + ul,
 .nav ul li ul:hover{
     display: block;
 }
@@ -181,6 +181,8 @@ p {
 .botonentrarreg h1{
     font-size: 18px;
     text-align: center;
+        
+}
 
 /* MEDIA QUERY*/
 @media (max-width: 700px) {
@@ -189,6 +191,7 @@ p {
     }  
 #inicio-sesion img{
     width: 55px;
+    
 }
 #logo img{
    width: 65px;
@@ -198,6 +201,11 @@ p {
     width: 100%;
     height: 90px;
     background-color: #7dbcb5;
+}
+#centro {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #inicio-footer{
