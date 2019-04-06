@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Controlando la diabetes </title>
+     <link rel="stylesheet" href="css/reticula.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- scrip header en head -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+</head>
+
+<body>
+    <!-- header en head -->
+    <header>
+        <div class="header-html"></div>
+    </header>
+
+   <div class="registro-formulario">
+      <div class="row">
+       <div class="col-12"><br></div>
+   </div>
+    
+      <div class="row">
+        <div id="formulariorellenado">
+           <div class="col-4">
+            <h2>NOMBRE</h2>
+            <input type="text">
+            <h2>DIRECCIÓN</h2><input type="text">
+            
+            <h2>EDAD</h2>
+            <input type="text">
+            <h2>SEXO</h2>
+            <input type="radio" name="sexo" value="hombre" checked="checked">Hombre
+            <br>
+            <input type="radio" name="sexo" value="mujer" /> Mujer
+            <h2>PESO LIBRAS</h2>
+            <input type="text">
+            <a href="">
+        <div class="botonentrarreg">
+                    <h1>ENTRAR</h1>
+        </div>
+    </a>
+        </div>
+        </div>
+        <div class="col-4">
+           <br> 
+        </div>
+        <div id="imgformu">
+        <div class="col-4">
+            <img src="Imagenes/registro-formulario/doctor.jpg" alt="">
+        </div>
+        </div>
+        
+    </div>
+</div>
+   
+       
+    
+</body>
+
+<div class="footer">
+<div class="footer-html"></div>
+</div>
+
+<!-- scrip para header -->
+
+<script>
+    $(document).ready(function () {
+      $('.header-html').load('./header.html');
+      $('.footer-html').load('./footer.html');
+    });
+  </script>
+
+</html>
