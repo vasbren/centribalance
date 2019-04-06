@@ -1,0 +1,539 @@
+.nav {
+    width: 100%;
+    height: 120px;
+    background-color: #7dbcb5;
+}
+
+.menu ul {
+    width: 150px;
+    position: absolute;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    background-color: #67aaa3;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu a:focus {
+    background-color: #406d68;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li a:focus + ul,
+.nav ul li ul:hover{
+    display: block;
+}
+
+#logo {
+    margin: 10px auto;
+}
+
+#inicio-sesion {
+    right: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+#inicio-footer{
+    width: 100%;
+    height: 10px;
+    background-color: #ffd0c5;
+    
+}
+.footer {
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+.footer img{
+    margin-right: 30px;
+}
+
+.banner1 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.imagen1 {
+    background-image: url(../Imagenes/alimentos/cover-alimentos.png);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.description1 h1, h3 {
+    color: #686364;
+    text-align: center;
+   
+}
+
+.description1 h3, h1 {
+    color: #686364;
+    text-align: center;
+    
+}
+
+#creatuplatillo img {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+#nuestromenu img {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.col-6 {
+    margin-top: 50px;
+}
+
+.banner2 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.imagen2 {
+    background-image: url(../Imagenes/crea-tu-platillo/cover-crea-tu-platillo-2.jpg);
+}
+
+.contenedor-tuplatillo {
+    padding: 300px 0;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-tuplatillo h2, h4 {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-tuplatillo h2, h4 {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+#seleccion {
+    margin-top: 15px;
+    padding: 15px 0;
+}
+
+.contenedoringredientes {
+    padding: 15px 0;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#ingredientes img {
+    padding: 15px 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.banner3 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen3 {
+    background-image: url(../Imagenes/carnes-rojas/Carne-cover.jpg);
+}
+
+#carnes h2 {
+    padding: 400px 0;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+#carnes img {
+    padding: 450px 0px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.contenedortipos img {
+    padding: 15px 0px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block
+}
+
+.contenedortipos2 img {
+    padding: 15px 0px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block
+}
+
+
+ul li {
+    margin-right: 15px; 
+}
+
+
+li {
+    display: inline;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+ol, ul {
+    list-style: none;
+    
+}
+
+.publicidadcarne {
+    padding: 15px 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 100%;
+}
+
+.botonpedido {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 90px;
+    width: 200px;
+    height: 70px;
+    color: #ffff;
+    background-color: #7dbcb5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botonpedido p{
+    text-align: center;
+    padding-top: 23px;
+    line-height: 1;
+}
+
+.banner4 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen4 {
+    background-image: url(../Imagenes/carnes-blancas/carne-de-pollo.jpg);
+}
+
+.publicidadcarnearriba {
+    padding: 15px 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 100%;
+}
+
+.banner5 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen5 {
+    background-image: url(../Imagenes/ensaladas/ensalada2cover.jpg);
+}
+
+.publicidadensalada {
+    padding: 15px 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 100%;
+}
+
+.banner6 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen6 {
+    background-image: url(../Imagenes/frutos-secos/frutos.jpg);
+}
+
+.banner7 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen7 {
+    background-image: url(../Imagenes/mariscos/cover-mariscos.png);
+}
+
+.banner8 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen8 {
+    background-image: url(../Imagenes/vegetales/cover-vegetales.png);
+}
+
+.contenedortexto1 {
+    margin-bottom: 50px;
+}
+
+.flechaizqplatillo {
+    margin-left: 100px;
+}
+
+.contenedor-nuestromenu {
+   padding: 300px 0;
+    justify-content: center;
+}
+
+.contenedor-nuestromenu h2, h4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.contenedor-nuestromenu h2, h4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner9 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen9 {
+    background-image: url(../Imagenes/nuestro-menu/cover-nuestro-menu.png);
+}
+
+.banner10 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen10 {
+    background-image: url(../Imagenes/desayunos/cover-desayunos.png);
+}
+
+.banner11 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen11 {
+    background-image: url(../Imagenes/almuerzo/cover-almuerzo.png);
+}
+
+.contenedortipos3 img {
+    padding: 15px 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedortexto3 img {
+    padding: 50px 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedortexto3 h1 {
+    padding: 0 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.banner12 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen12 {
+    background-image: url(../Imagenes/cena/cena2.jpg);
+}
+
+.banner13 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen13 {
+    background-image: url(../Imagenes/acompanamientos/cover-acompanamientos.png);
+}
+
+.banner14 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen14 {
+    background-image: url(../Imagenes/bebidas/cover-bebidas.png);
+}
+
+.banner15 {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.imagen15 {
+    background-image: url(../Imagenes/postres/recetas-de-postres-con-p%C3%A9talos-de-rosas.png);
+}
+
+
+@media only screen and (max-width:700px) {
+    .col-4, .col-6 {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:700px) {
+    .col-12, .col-2 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 700px) {
+.menu a img{
+    width: 20px;
+    }  
+#inicio-sesion img{
+    width: 55px;
+    
+}
+#logo img{
+   width: 65px;
+   padding-top: 10px;
+} 
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #7dbcb5;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
