@@ -229,6 +229,18 @@ img {
 }
 
 
+ul li {
+    margin-right: 15px; 
+}
+
+
+li {
+    display: inline;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
 ol, ul {
     list-style: none;
     
@@ -461,14 +473,14 @@ ol, ul {
 }
 
 
-@medi only screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
     .col-4, .col-6 {
         width: 100%;
     }
     
 }
 
-@medi only screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
     .col-12, .col-2, {
         width: 100%;
     }
@@ -635,14 +647,15 @@ h1 {
     padding-top: 3px;
     line-height: 1;
 }
-
 #carnes img {
     width: 40px;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    
+    padding: 100px;
+    padding-left: 35px;
+    padding-right: auto;
+    padding-bottom: 5px;
+    justify-content: center;
+    display: block;
 }
-   
 #carnes h2 {
     font-size: 14px;
     padding-top: 90px;
@@ -667,14 +680,10 @@ h1 {
     margin-left: auto;
     display: block;
 }
-.contenedortipos .col-4,.col-6 {
+.contenedortipos .col-4,.col-6, {
     width: 100%;
    
 }
-#ingredientes .col-4{
-        width: 100%
-}
-
 .contenedoringredientes img{
     width: 100%;
 }
@@ -689,18 +698,6 @@ h1 {
     margin-right: auto;
     margin-left: auto;
 }
-.contenedortipos3 .col-4{
-        width: 100%
-}
-.contenedortipos3 img {
-    width: 100%;
-    padding: 15px 0px;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
 .sumarestasigno img{
         width: 30px;
 }
@@ -717,8 +714,5 @@ h1 {
 .contenedorpublicidad a,img{
         width: 85%;
 }
-.footer img{
-    width: 20%
-}
-    
+
 }
