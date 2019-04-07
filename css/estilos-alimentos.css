@@ -492,13 +492,11 @@ ol, ul {
     width: 20px;
     }  
 #inicio-sesion img{
-    position: absolute;
     width: 55px;
-    bottom: 40px;
-    right: 5px;
+    
 }
 #logo img{
-   padding-left: 45%;
+   
     width: 65px;
    padding-top: 0px;
 } 
@@ -710,5 +708,10 @@ h1 {
 .contenedor-tuplatillo h2,h4{
     font-size: 18px;
 }
-
+.contenedorpublicidad .col-12{
+        width: 85%;
+}
+.contenedorpublicidad img{
+        width: 85%;
+}
 }
